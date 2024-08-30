@@ -8,7 +8,9 @@ using namespace std;
 
 // main() is the entry point of the program
 int main() {
-    cout << "Hello, World!" << endl;
+
+    int my_age = 26;
+    cout << my_age;
     // cout is an object of ostream class which is used to print the output
     // << is the insertion operator which is used to insert the output
     // endl is used to insert a new line
@@ -31,3 +33,12 @@ int main() {
 // we need to read the error message to know the type of the error also how to fix it
 // :line number is the line number in the code that caused the error
 // :error message is a description of the error that occurred
+// GNU compiler collection (GCC) is a compiler system produced by the GNU Project supporting various programming languages including C, C++, Objective-C, Fortran, Ada, Go, and D. it is widely used for compiling programs written in C and C++.
+/*
+1- Installation of GNU Manager
+2- add mingw/bin to the path of environment variables
+3- open the terminal and write g++ --version
+
+Or Use IDE like Code::Blocks, Visual Studio Code, Dev C++, etc.
+
+*/
