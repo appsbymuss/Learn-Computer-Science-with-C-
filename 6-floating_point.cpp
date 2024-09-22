@@ -12,7 +12,7 @@ int main(){
     //when we have mathematic operations with same data type, the result will be the same data type
 
     //analyse exception
-    cout << (0.1 + 0.2 == 0.3) << endl;
+    cout << boolalpha <<(0.1 + 0.2 == 0.3) << endl;
     // 0 means false
     cout << (0.1 + 0.2) << endl;
     // 0.3 but when come back to logical operation it will be false

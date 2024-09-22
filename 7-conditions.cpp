@@ -13,11 +13,11 @@ if (5 < 4) {
 //if the condition is false, the code inside the block will be executed
     cout << "hello from else" << endl;
 }
-
+// if we did one condition it s gonna check if the condition is true or false and pass to the next line 
 if (5 > 4) {
     cout << "hello from if 2" << endl;
 }
-
+// if we have more than one condition we can use else if statement
 if (5 == 4) {  
     // it verify the first condition, if it is true, it will execute the code inside the block and if not we will go to the next condition
     cout << "hello from if 3" << endl;
