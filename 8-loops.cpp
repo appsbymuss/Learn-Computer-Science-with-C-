@@ -25,6 +25,7 @@ for (int i = 0; i < 10; i++) {
 // while loop demonstration
 int j = 0;
 while (j < 10) {
+// while (condition)
     cout << j << endl;
     j++;
 // we added j++ to avoid infinite loop
@@ -35,6 +36,7 @@ do {
     cout << k << endl;
     k++;
 } while (k < 10);
+// do { instructions } while (condition);
 // the difference between while and do while is that do while will execute the code at least one time even if the condition is false 
     return 0;
 }
